@@ -174,7 +174,14 @@ const App = () => {
                 </tr>
               </tbody>
             </table>
-            <button>Buy</button>
+            <button>Buy</button>&nbsp;
+            <button
+            onClick={() => {
+              setShoppingCart([]);
+                    }}
+                  >
+                Delete All
+            </button>
           </div>
         </div>
       </div>
